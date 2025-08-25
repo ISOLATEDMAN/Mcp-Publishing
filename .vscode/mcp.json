@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "publishit": {
+      "command": "uv",
+      "args": ["run", "mcp-server"],
+      "cwd": "/Users/karthikeya/Desktop/try_mcp/publishIt"
+    }
+  }
+}

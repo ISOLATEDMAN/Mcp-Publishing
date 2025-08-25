@@ -202,16 +202,8 @@ dependencies = [
     { name = "mcp", extra = ["cli"] },
 ]
 
-[package.dev-dependencies]
-dev = [
-    { name = "publishit" },
-]
-
 [package.metadata]
 requires-dist = [{ name = "mcp", extras = ["cli"], specifier = ">=1.13.1" }]
-
-[package.metadata.requires-dev]
-dev = [{ name = "publishit", editable = "." }]
 
 [[package]]
 name = "pydantic"
